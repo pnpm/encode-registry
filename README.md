@@ -1,5 +1,7 @@
 # encode-registry
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pnpm/encode-registry.svg)](https://greenkeeper.io/)
+
 [![Status](https://travis-ci.org/pnpm/encode-registry.svg?branch=master)](https://travis-ci.org/pnpm/encode-registry "See test builds")
 
 > Encodes a registry URL. [Memoized](https://en.wikipedia.org/wiki/Memoization).
