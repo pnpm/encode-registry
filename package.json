@@ -1,0 +1,32 @@
+{
+  "name": "encode-registry",
+  "version": "0.0.0",
+  "description": "Encodes a registry URL",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/encode-registry.git"
+  },
+  "keywords": [
+    "registry"
+  ],
+  "author": "Zoltan Kochan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnpm/encode-registry/issues"
+  },
+  "homepage": "https://github.com/pnpm/encode-registry#readme",
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "mem": "^1.1.0"
+  }
+}
