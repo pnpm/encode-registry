@@ -1,6 +1,6 @@
 {
   "name": "encode-registry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Encodes a registry URL. Memoized.",
   "main": "index.js",
   "typings": "index.d.ts",
