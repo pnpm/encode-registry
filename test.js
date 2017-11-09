@@ -1,5 +1,5 @@
 'use strict'
-const encodeRegistry = require('.')
+const encodeRegistry = require('encode-registry')
 const test = require('tape')
 
 test('encodeRegistry()', t => {
