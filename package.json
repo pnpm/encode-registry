@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Encodes a registry URL. Memoized.",
   "main": "index.js",
+  "typings": "index.d.ts",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "engines": {
     "node": ">=4"
