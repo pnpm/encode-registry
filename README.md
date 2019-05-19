@@ -6,10 +6,8 @@
 
 ## Install
 
-Install it via npm.
-
 ```
-npm install encode-registry
+<pnpm|yarn|npm> add encode-registry
 ```
 
 ## Usage
