@@ -1,6 +1,6 @@
 'use strict'
 const assert = require('assert')
-const url = require('url')
+const { URL } = require('url')
 const mem = require('mem')
 
 module.exports = mem(encodeRegistry)
@@ -17,7 +17,7 @@ function escapeHost (host) {
 }
 
 function getHost (rawUrl) {
-  const urlObj = url.parse(rawUrl)
+  const urlObj = new URL(rawUrl)
   if (!urlObj || !urlObj.host) {
     throw new Error(`Couldn't get host from ${rawUrl}`)
   }
