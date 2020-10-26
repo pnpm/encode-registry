@@ -34,7 +34,7 @@
   "homepage": "https://github.com/pnpm/encode-registry#readme",
   "devDependencies": {
     "package-preview": "^3.0.0",
-    "standard": "^14.0.0",
+    "standard": "^15.0.0",
     "tape": "^5.0.0"
   },
   "dependencies": {
