@@ -17,7 +17,12 @@ function escapeHost (host) {
 }
 
 function getHost (rawUrl) {
-  const urlObj = new URL(rawUrl)
+  let urlObj
+  try {
+    urlObj = new URL(rawUrl)
+  } catch (err) {
+    throw new Error(`Failed to parse registry URL "${rawUrl}": ${err.message}`)
+  }
   if (!urlObj || !urlObj.host) {
     throw new Error(`Couldn't get host from ${rawUrl}`)
   }
